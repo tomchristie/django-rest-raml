@@ -1,3 +1,5 @@
+raml-codec
+
 # Testing requirements
 coverage
 flake8
