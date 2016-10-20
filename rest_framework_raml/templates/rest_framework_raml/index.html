@@ -6,6 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>API Console</title>
   <link href='{% static "rest_framework_raml/styles/api-console-light-theme.css" %}' rel="stylesheet" class="theme">
+  <style>
+  .raml-console-resource-header {display: none !important}
+  .raml-console-resource-response-jump {display: none !important}
+  .raml-console-response-container {display: none !important}
+  .raml-console-resource-no-baseuri {display: none !important}
+  .raml-console-documentation-schemes {display: none !important}
+  .raml-console-meta-button-group {display: none !important}
+  </style>
 </head>
 <body ng-app="ramlConsoleApp" ng-cloak class="raml-console-body">
   <raml-console-loader src="."></raml-console-loader>
